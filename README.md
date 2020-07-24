@@ -1,3 +1,3 @@
-# platformer-game
+# 2D Platformer Game
 
-Yay
+Please refer to the wiki to get started.
