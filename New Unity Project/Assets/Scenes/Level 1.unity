@@ -218,7 +218,7 @@ GameObject:
   - component: {fileID: 20904485}
   m_Layer: 0
   m_Name: Saw (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -447,7 +447,7 @@ GameObject:
   - component: {fileID: 67941660}
   m_Layer: 0
   m_Name: Water (1)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -740,7 +740,7 @@ GameObject:
   - component: {fileID: 84882930}
   m_Layer: 0
   m_Name: Water (5)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1982,7 +1982,7 @@ GameObject:
   - component: {fileID: 504190432}
   m_Layer: 0
   m_Name: Saw
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61080,7 +61080,7 @@ GameObject:
   - component: {fileID: 807802286}
   m_Layer: 0
   m_Name: Water (3)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62193,7 +62193,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 968901945}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -47.925095, y: 0.37485635, z: 417.57208}
+  m_LocalPosition: {x: -47.92509, y: 0.37485635, z: 417.57208}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 749368947}
@@ -62213,7 +62213,7 @@ GameObject:
   - component: {fileID: 970095512}
   m_Layer: 0
   m_Name: Mace Preview
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62609,7 +62609,7 @@ GameObject:
   - component: {fileID: 1077400996}
   m_Layer: 0
   m_Name: 2D Mace View (3)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63125,7 +63125,7 @@ GameObject:
   - component: {fileID: 1216794369}
   m_Layer: 0
   m_Name: Mace Preview (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63224,7 +63224,7 @@ GameObject:
   - component: {fileID: 1279026219}
   m_Layer: 0
   m_Name: 2D Mace View (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63803,7 +63803,7 @@ GameObject:
   - component: {fileID: 1446146659}
   m_Layer: 0
   m_Name: Water
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64078,7 +64078,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1474865758}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -47.925095, y: 0.37485635, z: 417.57208}
+  m_LocalPosition: {x: -47.92509, y: 0.37485635, z: 417.57208}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1952942651}
@@ -64260,7 +64260,7 @@ GameObject:
   - component: {fileID: 1496238452}
   m_Layer: 0
   m_Name: 2D Mace View (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64913,7 +64913,7 @@ GameObject:
   - component: {fileID: 1629285066}
   m_Layer: 0
   m_Name: 2D Mace View
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65445,7 +65445,7 @@ GameObject:
   - component: {fileID: 1707823116}
   m_Layer: 0
   m_Name: Mace Preview (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66433,7 +66433,7 @@ GameObject:
   - component: {fileID: 2048591943}
   m_Layer: 0
   m_Name: Water (4)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66820,7 +66820,7 @@ GameObject:
   - component: {fileID: 2107686961}
   m_Layer: 0
   m_Name: Water (2)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Coins
+  - Enemy
+  - Water
   layers:
   - Default
   - TransparentFX
