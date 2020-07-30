@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MaceMovement : MonoBehaviour {
-	private float speed = 2f;
-	private bool movingRight = false;
+public class HorizontalMovement : MonoBehaviour {
+	public float speed = 2f;
+	public bool movingRight = false;
 	
     // Start is called before the first frame update
     void Start() {
@@ -15,11 +15,11 @@ public class MaceMovement : MonoBehaviour {
     void Update() {
 		if(movingRight) {
 			transform.Translate(2 * Time.deltaTime * speed, 0, 0);
-			transform.localScale = new Vector2 (0.375f,0.375f);
+			//transform.localScale = new Vector2 (0.375f,0.375f);
 		}
 		else {
 			transform.Translate(-2 * Time.deltaTime * speed, 0, 0);
-			transform.localScale = new Vector2 (-0.375f,0.375f);
+			//transform.localScale = new Vector2 (-0.375f,0.375f);
 		}
 	}
 	
