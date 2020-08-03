@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CoinPicker : MonoBehaviour {
+public class Collisions : MonoBehaviour {
 	public Transform spawnpoint;
 	private float coins = 0;
 	
