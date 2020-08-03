@@ -17,6 +17,9 @@ public class Collisions : MonoBehaviour {
 		if(other.transform.tag == "Water") {
 			Respawn();
 		}
+		if(other.transform.tag == "Enemy") {
+			Respawn();
+		}
 	}
 	
 	
