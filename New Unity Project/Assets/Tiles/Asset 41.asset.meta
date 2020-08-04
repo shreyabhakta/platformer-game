@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 2a1eedb1d17cb4b45b2c1d1a901b87a5
+=======
+<<<<<<< HEAD:New Unity Project/Assets/Animation/ChestAnimator.controller.meta
+guid: b28b3247eb8d040cda1388e500e56761
+=======
+guid: 209aed34c71b942c9b226a02be667dfb
+>>>>>>> master:New Unity Project/Assets/Tiles/Asset 41.asset.meta
+>>>>>>> master
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 0

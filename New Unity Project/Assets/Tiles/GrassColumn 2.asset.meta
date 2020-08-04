@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 9d532ccc84c0c42cb957f6284cda8d5b
+=======
+<<<<<<< HEAD:New Unity Project/Assets/Animation/Player_Idle_Animator.controller.meta
+guid: 6e5b5ac228809414391f53057e3332e8
+=======
+guid: 67b5a4f36465347c69ae5ba356cc96af
+>>>>>>> master:New Unity Project/Assets/Tiles/GrassColumn 2.asset.meta
+>>>>>>> master
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 0
