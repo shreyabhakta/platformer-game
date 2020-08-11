@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Collisions : MonoBehaviour {
 	public int health = 3;
@@ -10,11 +11,15 @@ public class Collisions : MonoBehaviour {
 	public Image[] hearts;
 	public Sprite fullHeart;
 	public Sprite emptyHeart;
-	
 	public Transform spawnpoint;
-	private float coins = 0;
 	public TextMeshProUGUI coinText;
+	public int nextSceneLoad;
+	private float coins = 0;
 	
+	// Start is called before the first frame update
+	void Start() {
+		nextSceneLoad = SceneManager.GetActiveScene().buildIndex + 1;
+	}
     // Update is called once per frame
     void Update() {
 		if(health > numOfHearts) {
@@ -46,6 +51,20 @@ public class Collisions : MonoBehaviour {
 		if(other.transform.tag == "Water" || other.transform.tag == "Enemy") {
 			--health;
 			Respawn();
+		}
+		if(other.transform.tag == "Finish") {
+			if(SceneManager.GetActiveScene().buildIndex == 12) {
+				Debug.Log("YOU HAVE COMPLETED THE GAME");
+				//Win Screen/Options
+			}
+			else {
+				//Move to the next level
+				SceneManager.LoadScene(nextSceneLoad);
+				//Set int for Index
+				if(nextSceneLoad > PlayerPrefs.GetInt("levelAt")) {
+					PlayerPrefs.SetInt("levelAt", nextSceneLoad);
+				}
+			}
 		}
 	}
 	
